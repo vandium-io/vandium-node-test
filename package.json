@@ -1,0 +1,24 @@
+{
+  "name": "vandium-node-test",
+  "version": "1.0.0",
+  "description": "vandium node test project",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vandium-io/vandium-node-test.git"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --recursive"
+  },
+  "author": "vandium software",
+  "license": "MIT",
+  "dependencies": {
+    "vandium": "file:../vandium-node"
+  },
+  "devDependencies": {
+    "app-root-path": "^1.0.0",
+    "chai": "^3.5.0",
+    "lambda-tester": "^2.0.0",
+    "mocha": "^2.4.5"
+  }
+}
