@@ -13,7 +13,7 @@
   "author": "vandium software",
   "license": "MIT",
   "dependencies": {
-    "vandium": "file:../vandium-node"
+    "vandium": "^2.0.0"
   },
   "devDependencies": {
     "app-root-path": "^1.0.0",
